@@ -1,6 +1,7 @@
 import { HeaderContainer } from './styles'
-import coverImage from '../../assets/cover.png'
-import icon from '../../assets/icon.svg'
+import coverImage from '../../assets/images/cover.png'
+import icon from '../../assets/icons/icon.svg'
+import { Card } from '../../components/Card'
 
 export function Home() {
   return (
@@ -10,6 +11,8 @@ export function Home() {
         <img src={icon} alt="" />
         GITHUB BLOG
       </h1>
+
+      <Card />
     </HeaderContainer>
   )
 }

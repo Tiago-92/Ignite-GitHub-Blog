@@ -2,7 +2,6 @@ import styled from 'styled-components'
 
 export const HeaderContainer = styled.header`
   display: flex;
-  align-items: center;
   justify-content: center;
 
   img {
@@ -12,6 +11,7 @@ export const HeaderContainer = styled.header`
 
   h1 {
     position: absolute;
+    margin-top: 4rem;
 
     display: flex;
     flex-direction: column;
