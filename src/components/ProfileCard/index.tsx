@@ -5,7 +5,7 @@ import github from '../../assets/icons/github.svg'
 import building from '../../assets/icons/building.svg'
 import userGroup from '../../assets/icons/user-group.svg'
 
-export function Card() {
+export function ProfileCard() {
   return (
     <CardContainer>
       <div className="avatar">

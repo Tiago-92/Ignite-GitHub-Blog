@@ -4,23 +4,19 @@ export const CardContainer = styled.div`
   width: 54rem;
   height: 13.25rem;
 
-  margin-top: 13rem;
-  padding: 2rem;
+  margin-top: -6.25rem;
+
+  padding-top: 2rem;
+  padding-left: 2.5rem;
 
   display: flex;
   gap: 2rem;
-
-  position: absolute;
   background: ${(props) => props.theme['base-profile']};
   border-radius: 10px;
 
   .avatar {
     width: 9.25rem;
     height: 9.25rem;
-
-    img {
-      background-repeat: cover;
-    }
   }
 
   .profile {

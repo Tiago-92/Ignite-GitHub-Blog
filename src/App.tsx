@@ -4,8 +4,6 @@ export function App() {
   return (
     <>
       <GlobalStyle />
-
-      <h1>Olá</h1>
     </>
   )
 }
